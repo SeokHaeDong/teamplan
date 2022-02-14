@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Your Information</title>
+</head>
+<body>
+<form th:action="@{/checkplan/logincomplete}" method="post">
+    <div>
+        <h1 th:text="${session.nick}"></h1>
+    </div>
+</form>
+
+</body>
+</html>
